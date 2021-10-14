@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pastelería Rocher</title>
+	<meta charset=utf-8>
+	<meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="icon" href="media/favicon2.png" type="image/png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+  <meta name="description" content="Sitio web de un emprendimiento de gastronomía con recetas, cursos y tips de pastelería">
+  <meta name="keywords" content="RECETAS, PASTELERÍA, GASTRONOMÍA, CURSOS">
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<a class="logo" href="index.html"><img class="logo" src="media/cuerno.png" alt="croissant"></a>
+		<a href="#bajar"><h1>Pastelería Rocher.</h1></a>
+	</div>
+	<!--barra de navegacion-->
+	<ul class="nav nav-pills nav-fill">
+	  <li class="nav-item">
+	    <a name="bajar" class="nav-link active" aria-current="page" href="index.html">Home</a>
+	  </li>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cursos</button> 
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Cursos de invierno
+            </button>
+            <a class="dropdown-item" href="cursos.html" target="_blank">Cursos de verano</a>
+            <a class="dropdown-item" href="cursos.html" target="_blank">Cursos anuales</a>
+          </div>
+      </div>
+    	  </li>
+    	  <li class="nav-item">
+    	    <a class="nav-link" href="conocenos.html" target="_blank">Conocenos</a>
+    	  </li>
+    	  <li class="nav-item">
+    	    <a class="nav-link" href="contacto.html" >Contacto</a>
+    	  </li>
+    	  <li class="nav-item">
+    	    <a class="nav-link" href="preguntas.html">Preguntas</a>
+    	  </li>          
+    	<!--contenedor de secciones-->
+    	<div class="estructura">
+    		<!--caracteristicas del emprendimiento-->
+    		<div class="aside">
+    			<img src="media/diagram.png" alt=diagram>
+    			<h6>Los mejores cursos.</h6>
+          <br>
+    			<img src="media/seeding.png" alt=ecologist>
+    			<h6>Conscientes.</h6>
+          <br>
+    			<img src="media/vegan.png" alt=vegan>
+    			<h6>Veganos.</h6>
+          <br>
+          <img src="media/lampara.png" alt=idea>
+          <h6>Asesorías</h6>
+          <br>
+    		</div>
+    		<!--experiencias-->
+    		<div class="section">
+      		<div>
+      			<h2>Top #10 alumnos</h2>
+            <div class="container">
+              <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="media/curso3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h3>Valoramos tu esfuerzo</h3>
+                    </div>
+                </div>
+              <div class="carousel-item">
+                <img src="media/curso1.jpg" class="d-block w-100" alt="curso">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3>Nuestros mejores alumnos, tienen beneficios</h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+              <img src="media/curso2.jpg" class="d-block w-100" alt="curso">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Enterate de nuestro sistema de puntos en preguntas frecuentes.</h3>
+              </div>
+            </div>
+        </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </div>
+    <br>
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">JUNIO</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Promedio</th>
+                <th scope="col">Puesto</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">PANADERIA</th>
+                <td>Tomas</td>
+                <td>9,00</td>
+                <td>#12</td>
+              </tr>
+              <tr>
+                <th scope="row">CROISSANT</th>
+                <td>Romina</td>
+                <td>9,10</td>
+                <td>#11</td>
+              </tr>
+              <tr>
+                <th scope="row">PASTELERIA</th>
+                <td>Micaela</td>
+                <td>9,15</td>
+                <td>#10</td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">JULIO</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Promedio</th>
+                <th scope="col">Puesto</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">PANADERIA</th>
+                <td>Juan</td>
+                <td>9,25</td>
+                <td>#9</td>
+              </tr>
+              <tr>
+                <th scope="row">CROISSANT</th>
+                <td>Ivanna</td>
+                <td>9,30</td>
+                <td>#8</td>
+              </tr>
+              <tr>
+                <th scope="row">PASTELERIA</th>
+                <td>Aldana</td>
+                <td>9,40</td>
+                <td>#7</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+	</div>
+	<!--footer-->
+    	<div class="footer">
+    		<a href="https://www.instagram.com/_rocherr/" target="_blank"><img class="redes" src="media/ins.png" alt=instagram></a>
+    		<a href="https://twitter.com/login" target="_blank"><img img class="redes" src="media/twi.png" alt=twitter></a>
+    		<a href="https://www.facebook.com/" target="_blank"><img img class="redes" src="media/fei.png" alt=facebook></a>
+    	</div>
+    	<!--wp flotante-->
+    	<div>
+    		<a href="https://web.whatsapp.com/send?phone=5491122516893" target="_blank">
+    		<img class="boton" src="media/whatsapp.png" alt="whatsapp">	
+    		</a>
+    	</div>
+       <!-- Button trigger modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">No disponible</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Cursos de invierno disponibles desde junio a agosto.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
